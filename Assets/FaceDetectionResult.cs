@@ -16,11 +16,12 @@ public class FaceDetectionResult
     public int right { get; set; }
     public int bottom { get; set; }
 
-    //public override string ToString()
-    //{
-    //    return $"\tTop: {this.top}\n" +
-    //            $"\tLeft: {this.left}\n" +
-    //            $"\tRight: {this.right}\n" +
-    //            $"\tBottom: {this.bottom}";
-    //}
+    public override string ToString()
+    {
+        return string.Format("\tTop: {0}\n" +
+                "\tLeft: {1}\n" +
+                "\tRight: {2}\n" +
+                "\tBottom: {3}", 
+                this.top, this.left, this.right, this.bottom);
+    }
 };
