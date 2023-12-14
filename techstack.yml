@@ -1,11 +1,11 @@
 repo_name: sGambolati/FaceDetector
-report_id: dc55f4558be82a107acf9288ff2872df
+report_id: 34d4922962978d747bdfba3a4e29392a
 repo_type: Public
-timestamp: '2023-11-09T16:58:37+00:00'
+timestamp: '2023-12-14T09:46:46+00:00'
 requested_by: sGambolati
 provider: github
 branch: master
-detected_tools_count: 5
+detected_tools_count: 7
 tools:
 - name: ASP.NET
   description: An open source web framework for building modern web apps and services
@@ -17,8 +17,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: FaceDetector.Editor.csproj
-  detection_source: FaceDetector.csproj
+  detection_source_url: https://github.com/sGambolati/FaceDetector/blob/master/FaceDetector.Editor.csproj
+  detection_source: FaceDetector.Editor.csproj
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2017-11-30 13:46:14.000000000 Z
 - name: C#
@@ -42,8 +42,19 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source_url: FaceDetector.Editor.csproj
-  detection_source: FaceDetector.csproj
+  detection_source_url: https://github.com/sGambolati/FaceDetector/blob/master/FaceDetector.Editor.csproj
+  detection_source: FaceDetector.Editor.csproj
+  last_updated_by: Sebastian Gambolati
+  last_updated_on: 2017-11-30 13:46:14.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: Assets/HoloToolkit/License.txt
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2017-11-30 13:46:14.000000000 Z
 - name: Git
@@ -65,5 +76,16 @@ tools:
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
   detection_source: FaceDetector.sln
+  last_updated_by: Sebastian Gambolati
+  last_updated_on: 2017-11-30 13:46:14.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: Assets/HoloToolkit/License.txt
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2017-11-30 13:46:14.000000000 Z
